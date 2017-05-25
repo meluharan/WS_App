@@ -8,7 +8,8 @@ function initSocket(app_id) {
     console.log('using hostname: '+window.location.hostname);
     // Connect to server
     const socket = io.connect(window.location.hostname);
-    //const socket = io(); we could have it also by not specifying any URL when we call io(),
+    //const socket = io();
+    // we could have it also by not specifying any URL when we call io(),
     // since it defaults to trying to connect to the host that serves the page.
     let sessionid;
     // register room to the server
