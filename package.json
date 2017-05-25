@@ -1,0 +1,26 @@
+{
+  "name": "ws_app",
+  "version": "1.0.0",
+  "description": "Continuous real-time messaging application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meluharan/WS_App.git"
+  },
+  "author": "Mohammed El Uharani",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/meluharan/WS_App/issues"
+  },
+  "homepage": "https://github.com/meluharan/WS_App#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "moment": "^2.18.1",
+    "socket.io": "^2.0.1"
+  }
+}
